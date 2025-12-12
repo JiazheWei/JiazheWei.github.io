@@ -25,32 +25,25 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 ✨ <i style="color: red;">I'm always open to all kinds of cooperation and discussion.</i> **You can contact me via email or WeChat: wjz_void.**
 
-# 📖 Education
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="images/xjtu.png" alt="XJTU" style="width: 115px; height: 115px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
-  <div>
-    <p style="margin: 0;"><strong>Xi'an Jiaotong University (XJTU)</strong>, China</p>
-    <p style="margin: 5px 0; font-size: 14px;"><em>2022.09 - 2026.06 (expected)</em></p>
-    <p style="margin: 5px 0; font-size: 14px;"><strong>B.Eng. in Computer Science and Technology (<a href="http://www.cs.xjtu.edu.cn/info/2384/2460.htm">Qian Xuesen Honor Class</a>)</strong></p>
-    <p style="margin: 5px 0; font-size: 14px;">• GPA: 91.97 / 100</p>
-    <p style="margin: 5px 0; font-size: 14px;">• Ranking: 3/43</p>
-  </div>
-</div>
 
 # 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
 
-<!-- 需要图片: files/work/ALM-PU.png -->
-
-**ALM-PU: Positive and Unlabeled learning with constrained optimization**
-
-**<u>Jiazhe Wei</u>\***, Yuefei Wu\*, Ken Li, Bo Dong, Bin Shi
-
-*Accepted at the proceedings of ECML-PKDD2025 Journal Track as oral presentation.*
-
-[Paper](https://link.springer.com/article/10.1007/s10994-025-06849-3) / [Code](https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization)
-
-We propose a novel constraint optimization-based PU-learning framework, which overcomes classifiers' negative classification bias and enhances sample discrimination capability by imposing distinct mathematical constraints on labeled and unlabeled sample sets and resolving the problem through systematic optimization.
+<div style="display: flex; gap: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffdf; border-radius: 8px;">
+  <div style="flex-shrink: 0;">
+    <img src="images/ALM-PU.png" alt="ALM-PU" style="width: 200px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+  </div>
+  <div style="flex-grow: 1;">
+    <p style="margin: 0 0 8px 0;"><strong style="font-size: 16px; color: #456fc3;">ALM-PU: Positive and Unlabeled learning with constrained optimization</strong></p>
+    <p style="margin: 0 0 8px 0; font-size: 14px;"><strong><u>Jiazhe Wei</u>*</strong>, Yuefei Wu*, Ken Li, Bo Dong, Bin Shi</p>
+    <p style="margin: 0 0 8px 0; font-size: 14px;"><em>Accepted at the proceedings of ECML-PKDD2025 Journal Track as oral presentation.</em></p>
+    <p style="margin: 0 0 8px 0; font-size: 14px;">
+      <a href="https://link.springer.com/article/10.1007/s10994-025-06849-3" target="_blank">Paper</a> / 
+      <a href="https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization" target="_blank">Code</a>
+    </p>
+    <p style="margin: 0; font-size: 13px; color: #666;">We propose a novel constraint optimization-based PU-learning framework, which overcomes classifiers' negative classification bias and enhances sample discrimination capability by imposing distinct mathematical constraints on labeled and unlabeled sample sets and resolving the problem through systematic optimization.</p>
+  </div>
+</div>
 
 ---
 
@@ -112,6 +105,20 @@ Supervised by [Prof. Zhili Weng](https://inspirehep.net/authors/1071677)
 - *2023* **Silver Medal**, (CCPC) China Collegiate Programming Contest National Invitational Contest
 - *2023* HuaWei scholarship
 - *2023* National third prize, Chinese College Students English Academic Proficiency Competition
+
+# 📖 Education
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/xjtu.png" alt="XJTU" style="width: 115px; height: 115px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong>Xi'an Jiaotong University (XJTU)</strong>, China</p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2022.09 - 2026.06 (expected)</em></p>
+    <p style="margin: 5px 0; font-size: 14px;"><strong>B.Eng. in Computer Science and Technology (<a href="http://www.cs.xjtu.edu.cn/info/2384/2460.htm">Qian Xuesen Honor Class</a>)</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;">• GPA: 91.97 / 100</p>
+    <p style="margin: 5px 0; font-size: 14px;">• Ranking: 3/43</p>
+  </div>
+</div>
+
 
 # 💻 Engineering Experience
 
