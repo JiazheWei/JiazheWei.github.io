@@ -28,7 +28,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 # 📖 Education
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="images/xjtu.png" alt="XJTU" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <img src="images/xjtu.png" alt="XJTU" style="width: 115px; height: 115px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
   <div>
     <p style="margin: 0;"><strong>Xi'an Jiaotong University (XJTU)</strong>, China</p>
     <p style="margin: 5px 0; font-size: 14px;"><em>2022.09 - 2026.06 (expected)</em></p>
@@ -48,7 +48,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 *Accepted at the proceedings of ECML-PKDD2025 Journal Track as oral presentation.*
 
-[Paper](https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization) / [arXiv]() / [Code](https://anonymous.4open.science/r/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization-5344/README.md)
+[Paper](https://link.springer.com/article/10.1007/s10994-025-06849-3) / [Code](https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization)
 
 We propose a novel constraint optimization-based PU-learning framework, which overcomes classifiers' negative classification bias and enhances sample discrimination capability by imposing distinct mathematical constraints on labeled and unlabeled sample sets and resolving the problem through systematic optimization.
 
