@@ -31,7 +31,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 <div style="display: flex; gap: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffdf; border-radius: 8px;">
   <div style="flex-shrink: 0;">
-    <img src="images/ALM-PU.png" alt="ALM-PU" style="width: 200px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+    <img src="images/ALM-PU.png" alt="ALM-PU" style="width: 165px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
   </div>
   <div style="flex-grow: 1;">
     <p style="margin: 0 0 8px 0;"><strong style="font-size: 16px; color: #456fc3;">ALM-PU: Positive and Unlabeled learning with constrained optimization</strong></p>
@@ -47,15 +47,20 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 ---
 
-<!-- 需要图片: files/work/backdoor.png -->
-
-**NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning**
-
-Ken Li, **<u>Jiazhe Wei</u>**, Bo Dong, Bin Shi
-
-*Accepted at the proceedings of WWW2025 Research Track as oral presentation.*
-
-We propose a non-intrusive graph distributed backdoor attack(NI-GDBA) that does not require backdoor triggers to be injected in the training data.
+<div style="display: flex; gap: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffdf; border-radius: 8px;">
+  <div style="flex-shrink: 0;">
+    <img src="images/backdoor.png" alt="NI-GDBA" style="width: 165px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+  </div>
+  <div style="flex-grow: 1;">
+    <p style="margin: 0 0 8px 0;"><strong style="font-size: 16px; color: #456fc3;">NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning</strong></p>
+    <p style="margin: 0 0 8px 0; font-size: 14px;">Ken Li, <strong><u>Jiazhe Wei</u></strong>, Bo Dong, Bin Shi</p>
+    <p style="margin: 0 0 8px 0; font-size: 14px;"><em>Accepted at the proceedings of WWW2025 Research Track as oral presentation.</em></p>
+    <p style="margin: 0 0 8px 0; font-size: 14px;">
+      <a href="https://openreview.net/pdf?id=yexIJEru0l" target="_blank">Paper</a>
+    </p>
+    <p style="margin: 0; font-size: 13px; color: #666;">We propose a non-intrusive graph distributed backdoor attack(NI-GDBA) that does not require backdoor triggers to be injected in the training data.</p>
+  </div>
+</div>
 
 ---
 
