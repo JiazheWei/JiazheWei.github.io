@@ -23,15 +23,19 @@ Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring 
 
 My research interests mainly focus on: **1) Highly Controllable Visual Generative Models; 2) World Foundation Models; 3) Efficient Generative Models and Model Compression; 4) Unified Multi-modal Learning**. 
 
-:sparkles: I'm always open to all kinds of cooperation and discussion. **You can contact me via email or WeChat: wjz_void.**
-
-<i style="color: red;">Feel free to contact me by email if you are interested in discussing or collaborating with me.</i>
+✨ <i style="color: red;">I'm always open to all kinds of cooperation and discussion.</i> **You can contact me via email or WeChat: wjz_void.**
 
 # 📖 Education
 
-<!-- 需要图片: files/institute/xjtu.jpg -->
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/xjtu.png" alt="XJTU" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain;">
+  <div>
+    <p style="margin: 0;"><strong>Xi'an Jiaotong University (XJTU)</strong>, China</p>
+    <p style="margin: 5px 0 0 0; font-size: 14px;"><em>2022.09 - 2026.06 (expected)</em></p>
+  </div>
+</div>
 
-- *2022.09 - 2026.06 (expected)*, **B.Eng. in Computer Science and Technology ([Qian Xuesen Honor Class](http://www.cs.xjtu.edu.cn/info/2384/2460.htm))**, [Xi'an Jiaotong University (XJTU)](http://www.cs.xjtu.edu.cn/), China
+- **B.Eng. in Computer Science and Technology ([Qian Xuesen Honor Class](http://www.cs.xjtu.edu.cn/info/2384/2460.htm))**
   - GPA: 91.97 / 100
   - Ranking: 3/43
 
