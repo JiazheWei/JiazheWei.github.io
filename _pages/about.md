@@ -17,42 +17,121 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+# Biography
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring in Computer Science at Nanjing University (expected graduation in June 2029) and doing research at [Pattern Recognition Lab](https://prlab-nju.com/nju/) @NJU, supervised by Prof. [Chenyang Si](https://scholar.google.com/citations?hl=en&user=XdahAuoAAAAJ) and Prof. [Tieniu Tan](https://scholar.google.com/citations?user=W-FGd_UAAAAJ&hl=en).
 
+I also work closely with MMlab@NTU. I have published two top conference papers in **ECML-PKDD2025 and WWW2025**, and participated in several algorithmic competitions, won the **second prize of the Blue Bridge Cup National, 350 points in CSP, the gold medal of Baidu Star**, and various honors including the **Baosteel Outstanding Student Scholarship (宝钢优秀学生奖学金)**. Outside of my academic pursuits, I am deeply passionate about music, painting, and photography. I also hold a Level 10 certification in vocal music and a Level 7 certification in violin performance.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+My research interests mainly focus on **Generative AI**, **Embodied AI** and **Generative-Ai Driven World models**.
 
-# 📝 Publications 
+<i style="color: red;">Feel free to contact me by email if you are interested in discussing or collaborating with me.</i>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📖 Education
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<!-- 需要图片: files/institute/xjtu.jpg -->
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- *2022.09 - 2026.06 (expected)*, **B.Eng. in Computer Science and Technology ([Qian Xuesen Honor Class](http://www.cs.xjtu.edu.cn/info/2384/2460.htm))**, [Xi'an Jiaotong University (XJTU)](http://www.cs.xjtu.edu.cn/), China
+  - GPA: 91.97 / 100
+  - Ranking: 3/43
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+# 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<!-- 需要图片: files/work/ALM-PU.png -->
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**ALM-PU: Positive and Unlabeled learning with constrained optimization**
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+**<u>Jiazhe Wei</u>\***, Yuefei Wu\*, Ken Li, Bo Dong, Bin Shi
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+*Accepted at the proceedings of ECML-PKDD2025 Journal Track as oral presentation.*
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+[Paper](https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization) / [arXiv]() / [Code](https://anonymous.4open.science/r/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization-5344/README.md)
+
+We propose a novel constraint optimization-based PU-learning framework, which overcomes classifiers' negative classification bias and enhances sample discrimination capability by imposing distinct mathematical constraints on labeled and unlabeled sample sets and resolving the problem through systematic optimization.
+
+---
+
+<!-- 需要图片: files/work/backdoor.png -->
+
+**NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning**
+
+Ken Li, **<u>Jiazhe Wei</u>**, Bo Dong, Bin Shi
+
+*Accepted at the proceedings of WWW2025 Research Track as oral presentation.*
+
+We propose a non-intrusive graph distributed backdoor attack(NI-GDBA) that does not require backdoor triggers to be injected in the training data.
+
+---
+
+<i>\* Equal contribution. † Corresponding author.</i>
+
+# 🔬 Research & Visiting Experience
+
+<!-- 需要图片: files/institute/BDKE.png -->
+
+**[BDKElab](https://bdkelab.xjtu.edu.cn/sysjj/sysjj.htm), Xi'an Jiaotong University**
+
+*2023.09 - 2024.10, Research Assistant, Xi'an, China*
+
+This was a period filled with bitterness and twists and turns -- a detour I had to take in my research career. Despite this, I remain grateful for the experience, as it taught me early on what kind of taste an independent researcher should cultivate, what abilities they must possess, and the importance of reaching outward to embrace the whole world.
+
+---
+
+<!-- 需要图片: files/institute/linslab.png -->
+
+**[LinsLab](http://opengvlab.shlab.org.cn/), Learning and Inference Systems Lab, Westlake University & Zhejiang University**
+
+*2024.11 - Present, Intern Researcher, Hangzhou, China*
+
+Working with [Prof. Tao Lin](https://www.westlake.edu.cn/faculty/tao-lin.html) and [Dr. Peng Sun](https://sp12138.github.io/)
+
+---
+
+<!-- 需要图片: files/institute/CERN.jpg -->
+
+**European Organization for Nuclear Research & CERN**
+
+*2025.01 - 2025.02, Visiting Student, Geneva, Switzerland*
+
+Supervised by [Prof. Zhili Weng](https://inspirehep.net/authors/1071677)
+
+# 🎖 Honors and Awards (Selected)
+
+<!-- 需要图片: files/photo/highlight/lanqiao.jpg -->
+<!-- 需要图片: files/photo/highlight/baogang.png -->
+
+- *2024* **Baosteel Outstanding Student Scholarship (宝钢优秀学生奖学金)**, Awarded to 400 top Chinese undergraduates nationwide
+- *2024* **350 points, ranked in top 2% nationwide**, CCF Certified Software Professional(CSP)
+- *2024* **National Third Prize** 🥉, Blue Bridge Cup National Software and Information Technology Professionals Competition (第十五届蓝桥杯程序设计大赛C++A组--全国总决赛)
+- *2023* **Gold Medal** 🥇, Bai Du--A star Programming Competition
+- *2023* First scholarship for Outstanding Students
+- *2023, 2024* Dean's list
+- *2023* **Silver Medal**, (CCPC) China Collegiate Programming Contest National Invitational Contest
+- *2023* HuaWei scholarship
+- *2023* National third prize, Chinese College Students English Academic Proficiency Competition
+
+# 💻 Engineering Experience
+
+<!-- 需要图片: files/work/Paranormal-XJTU.png -->
+
+**Paranormal-XJTU: A 2D game developed by Unity**
+
+*May, 2024, Project Leader & 6-people Team*
+
+As an ordinary college student, one day you suddenly found that your school began to circulate a variety of ghosts and monsters. At the same time, your classmates also behaved abnormally one after another, and you, how will you solve the mystery?
+
+[[Play](https://github.com/Team-Ferry/Paranormal-XJTU?tab=readme-ov-file)]
+
+# 👔 Leadership Experience
+
+- *2023.04 - present*, **Captain**, [XJTU deep learning seminar](https://xjtu-deeplearning-seminar.github.io/dl-discussion/)
+- *2024.07 - present*, **Captain of the Computer Experimental Class**
+
+# 📋 Academic Services
+
+**Reviewer**: AAAI 2025, ECML-PKDD 2025
+
+---
+
+<p style="text-align: center; font-size: small;"><i>Latest updated in Feb. 2025</i></p>
+<p style="text-align: center;">© Jiazhe Wei</p>
