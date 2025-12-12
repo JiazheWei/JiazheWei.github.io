@@ -27,17 +27,16 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 # 📖 Education
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="images/xjtu.png" alt="XJTU" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="images/xjtu.png" alt="XJTU" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
   <div>
     <p style="margin: 0;"><strong>Xi'an Jiaotong University (XJTU)</strong>, China</p>
-    <p style="margin: 5px 0 0 0; font-size: 14px;"><em>2022.09 - 2026.06 (expected)</em></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2022.09 - 2026.06 (expected)</em></p>
+    <p style="margin: 5px 0; font-size: 14px;"><strong>B.Eng. in Computer Science and Technology (<a href="http://www.cs.xjtu.edu.cn/info/2384/2460.htm">Qian Xuesen Honor Class</a>)</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;">• GPA: 91.97 / 100</p>
+    <p style="margin: 5px 0; font-size: 14px;">• Ranking: 3/43</p>
   </div>
 </div>
-
-- **B.Eng. in Computer Science and Technology ([Qian Xuesen Honor Class](http://www.cs.xjtu.edu.cn/info/2384/2460.htm))**
-  - GPA: 91.97 / 100
-  - Ranking: 3/43
 
 # 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
 
