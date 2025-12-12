@@ -19,11 +19,11 @@ redirect_from:
 
 # Biography
 
-Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring in Computer Science at Nanjing University (expected graduation in June 2029) and doing research at [Pattern Recognition Lab](https://prlab-nju.com/nju/) @NJU, supervised by Prof. [Chenyang Si](https://scholar.google.com/citations?hl=en&user=XdahAuoAAAAJ) and Prof. [Tieniu Tan](https://scholar.google.com/citations?user=W-FGd_UAAAAJ&hl=en).
+Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring in Intelligent Science and Technology at Nanjing University and doing research at [Pattern Recognition Lab](https://prlab-nju.com/nju/) @NJU, supervised by Prof. [Chenyang Si](https://scholar.google.com/citations?hl=en&user=XdahAuoAAAAJ) and Prof. [Tieniu Tan](https://scholar.google.com/citations?user=W-FGd_UAAAAJ&hl=en).
 
-I also work closely with MMlab@NTU. I have published two top conference papers in **ECML-PKDD2025 and WWW2025**, and participated in several algorithmic competitions, won the **second prize of the Blue Bridge Cup National, 350 points in CSP, the gold medal of Baidu Star**, and various honors including the **Baosteel Outstanding Student Scholarship (宝钢优秀学生奖学金)**. Outside of my academic pursuits, I am deeply passionate about music, painting, and photography. I also hold a Level 10 certification in vocal music and a Level 7 certification in violin performance.
+My research interests mainly focus on: **1) Highly Controllable Visual Generative Models; 2) World Foundation Models; 3) Efficient Generative Models and Model Compression; 4) Unified Multi-modal Learning**. 
 
-My research interests mainly focus on **Generative AI**, **Embodied AI** and **Generative-Ai Driven World models**.
+:sparkles: I'm always open to all kinds of cooperation and discussion. **You can contact me via email or WeChat: wjz_void.**
 
 <i style="color: red;">Feel free to contact me by email if you are interested in discussing or collaborating with me.</i>
 
