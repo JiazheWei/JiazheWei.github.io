@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Jiazhe Wei (魏佳哲)"
+  name             : "Jiazhe Wei"
   avatar           : "images/profile.jpg"  # 需要图片: new_profile.jpg
-  bio              : "Incoming Master Student @ NJU"
+  bio              : 
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
