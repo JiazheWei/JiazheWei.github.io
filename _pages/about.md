@@ -27,7 +27,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 # 📖 Education
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="images/xjtu.png" alt="XJTU" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
   <div>
     <p style="margin: 0;"><strong>Xi'an Jiaotong University (XJTU)</strong>, China</p>
