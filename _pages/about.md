@@ -86,8 +86,37 @@ Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
 
 # 🔬 Research & Visiting Experience
 
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="images/xjtu.png" alt="BDKElab" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/Lovart-logo.png" alt="lovart" style="width: 120px; height: 120px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong><a href="http://opengvlab.shlab.org.cn/">LinsLab</a>, Learning and Inference Systems Lab, Westlake University & Zhejiang University</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2024.11 - Present, Intern Researcher, Hangzhou, China</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">Working with <a href="https://www.westlake.edu.cn/faculty/tao-lin.html">Prof. Tao Lin</a> and <a href="https://sp12138.github.io/">Dr. Peng Sun</a></p>
+  </div>
+</div>
+---
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/linslab.png" alt="LinsLab" style="width: 120px; height: 120px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong><a href="https://lins-lab.github.io/">LinsLab</a>, Learning and Inference Systems Lab, Westlake University & Zhejiang University</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2024.11 - Present, Intern Researcher, Hangzhou, China</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">Working with <a href="https://www.westlake.edu.cn/faculty/tao-lin.html">Prof. Tao Lin</a> and <a href="https://sp12138.github.io/">Dr. Peng Sun</a></p>
+  </div>
+</div>
+
+---
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/CERN.jpg" alt="CERN" style="width: 120px; height: 120px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong>European Organization for Nuclear Research & CERN</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2025.01 - 2025.02, Visiting Student, Geneva, Switzerland</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">Supervised by <a href="https://inspirehep.net/authors/1071677">Prof. Zhili Weng</a></p>
+  </div>
+</div>
+
+---
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/xjtu.png" alt="BDKElab" style="width: 120px; height: 120px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
   <div>
     <p style="margin: 0;"><strong><a href="https://bdkelab.xjtu.edu.cn/sysjj/sysjj.htm">BDKElab</a>, Xi'an Jiaotong University</strong></p>
     <p style="margin: 5px 0; font-size: 14px;"><em>2023.09 - 2024.10, Research Assistant, Xi'an, China</em></p>
@@ -95,27 +124,6 @@ Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
   </div>
 </div>
 
----
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="images/linslab.png" alt="LinsLab" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
-  <div>
-    <p style="margin: 0;"><strong><a href="http://opengvlab.shlab.org.cn/">LinsLab</a>, Learning and Inference Systems Lab, Westlake University & Zhejiang University</strong></p>
-    <p style="margin: 5px 0; font-size: 14px;"><em>2024.11 - Present, Intern Researcher, Hangzhou, China</em></p>
-    <p style="margin: 5px 0; font-size: 14px;">Working with <a href="https://www.westlake.edu.cn/faculty/tao-lin.html">Prof. Tao Lin</a> and <a href="https://sp12138.github.io/">Dr. Peng Sun</a></p>
-  </div>
-</div>
-
----
-
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <img src="images/CERN.jpg" alt="CERN" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
-  <div>
-    <p style="margin: 0;"><strong>European Organization for Nuclear Research & CERN</strong></p>
-    <p style="margin: 5px 0; font-size: 14px;"><em>2025.01 - 2025.02, Visiting Student, Geneva, Switzerland</em></p>
-    <p style="margin: 5px 0; font-size: 14px;">Supervised by <a href="https://inspirehep.net/authors/1071677">Prof. Zhili Weng</a></p>
-  </div>
-</div>
 
 # 🎖 Honors and Awards (Selected)
 
