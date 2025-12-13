@@ -25,6 +25,16 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 ✨ <i style="color: red;">I'm always open to all kinds of cooperation and discussion.</i> **You can contact me via email or WeChat: wjz_void.**
 
+# 🔥 News
+
+- *2025.12*: &nbsp;🎉 **PosterCopilot** is now available on [arxiv](https://arxiv.org/pdf/2512.04082), code is under construction.
+
+- *2025.09*: &nbsp;🏆 Awarded **CCF Elite Collegiate Award** of 2025. See you in Harbin. 
+
+- *2025.07*: &nbsp;🎉 **ALM-PU** is accepted by **ECML-PKDD 2025** as oral presentation. Thanks to all co-authors. See you in Porto, Spain.
+
+- *2025.02*: &nbsp;🎉 **NI-GDBA** is accepted by **WWW 2025** as oral presentation. Congratulations to Ken Li! See you in Sydney, Australia.
+
 
 
 # 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
@@ -128,16 +138,13 @@ Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
 
 
 # 🎖 Honors and Awards (Selected)
-
-<!-- 需要图片: files/photo/highlight/lanqiao.jpg -->
-<!-- 需要图片: files/photo/highlight/baogang.png -->
-
-- *2024* **Baosteel Outstanding Student Scholarship (宝钢优秀学生奖学金)**, Awarded to 400 top Chinese undergraduates nationwide
+- *2025* **CCF Elite Collegiate Award**, Awarded to 99 top Chinese undergraduates major in CS&AI nationwide
+- *2024* **Baosteel Outstanding Student Scholarship**, Awarded to 400 top Chinese undergraduates&graduates nationwide
 - *2024* **350 points, ranked in top 2% nationwide**, CCF Certified Software Professional(CSP)
-- *2024* **National Third Prize** 🥉, Blue Bridge Cup National Software and Information Technology Professionals Competition (第十五届蓝桥杯程序设计大赛C++A组--全国总决赛)
+- *2024* **National Third Prize** 🥉, Blue Bridge Cup National Software and Information Technology Professionals Competition 
 - *2023* **Gold Medal** 🥇, Bai Du--A star Programming Competition
 - *2023* First scholarship for Outstanding Students
-- *2023, 2024* Dean's list
+- *2023, 2024, 2025* Dean's list
 - *2023* **Silver Medal**, (CCPC) China Collegiate Programming Contest National Invitational Contest
 - *2023* HuaWei scholarship
 - *2023* National third prize, Chinese College Students English Academic Proficiency Competition
