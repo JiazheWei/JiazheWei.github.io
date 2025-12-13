@@ -86,33 +86,36 @@ Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
 
 # 🔬 Research & Visiting Experience
 
-<!-- 需要图片: files/institute/BDKE.png -->
-
-**[BDKElab](https://bdkelab.xjtu.edu.cn/sysjj/sysjj.htm), Xi'an Jiaotong University**
-
-*2023.09 - 2024.10, Research Assistant, Xi'an, China*
-
-This was a period filled with bitterness and twists and turns -- a detour I had to take in my research career. Despite this, I remain grateful for the experience, as it taught me early on what kind of taste an independent researcher should cultivate, what abilities they must possess, and the importance of reaching outward to embrace the whole world.
-
----
-
-<!-- 需要图片: files/institute/linslab.png -->
-
-**[LinsLab](http://opengvlab.shlab.org.cn/), Learning and Inference Systems Lab, Westlake University & Zhejiang University**
-
-*2024.11 - Present, Intern Researcher, Hangzhou, China*
-
-Working with [Prof. Tao Lin](https://www.westlake.edu.cn/faculty/tao-lin.html) and [Dr. Peng Sun](https://sp12138.github.io/)
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="images/xjtu.png" alt="BDKElab" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong><a href="https://bdkelab.xjtu.edu.cn/sysjj/sysjj.htm">BDKElab</a>, Xi'an Jiaotong University</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2023.09 - 2024.10, Research Assistant, Xi'an, China</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">This was a period filled with bitterness and twists and turns -- a detour I had to take in my research career. Despite this, I remain grateful for the experience, as it taught me early on what kind of taste an independent researcher should cultivate, what abilities they must possess, and the importance of reaching outward to embrace the whole world.</p>
+  </div>
+</div>
 
 ---
 
-<!-- 需要图片: files/institute/CERN.jpg -->
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="images/linslab.png" alt="LinsLab" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong><a href="http://opengvlab.shlab.org.cn/">LinsLab</a>, Learning and Inference Systems Lab, Westlake University & Zhejiang University</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2024.11 - Present, Intern Researcher, Hangzhou, China</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">Working with <a href="https://www.westlake.edu.cn/faculty/tao-lin.html">Prof. Tao Lin</a> and <a href="https://sp12138.github.io/">Dr. Peng Sun</a></p>
+  </div>
+</div>
 
-**European Organization for Nuclear Research & CERN**
+---
 
-*2025.01 - 2025.02, Visiting Student, Geneva, Switzerland*
-
-Supervised by [Prof. Zhili Weng](https://inspirehep.net/authors/1071677)
+<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
+  <img src="images/CERN.jpg" alt="CERN" style="width: 80px; height: 80px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong>European Organization for Nuclear Research & CERN</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2025.01 - 2025.02, Visiting Student, Geneva, Switzerland</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">Supervised by <a href="https://inspirehep.net/authors/1071677">Prof. Zhili Weng</a></p>
+  </div>
+</div>
 
 # 🎖 Honors and Awards (Selected)
 
