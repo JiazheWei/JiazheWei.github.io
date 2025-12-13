@@ -54,7 +54,6 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 </div>
 
 </div>
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025 Oral</div><img src='images/ALM-PU.png' alt="ALM-PU" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 
@@ -72,7 +71,6 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 </div>
 
----
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025 Oral</div><img src='images/backdoor.png' alt="NI-GDBA" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 
@@ -90,7 +88,6 @@ Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
 
 </div>
 
----
 
 <i>\* Equal contribution. † Corresponding author.</i>
 
