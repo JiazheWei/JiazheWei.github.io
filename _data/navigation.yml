@@ -7,16 +7,16 @@ main:
     url: "/#-news"
 
   - title: "Publications"
-    url: "/#-publications"
+    url: "/#-publications--preprints-full-list"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Research Experience"
+    url: "/#-research--intern-experience"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Honors & Awards"
+    url: "/#-honors-and-awards-selected"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  - title: "Education"
+    url: "/#-education"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Talks & Service"
+    url: "/#-talks--reports"
