@@ -29,6 +29,23 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 # 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/teaser.png' alt="PosterCopilot" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design](https://arxiv.org/pdf/2512.04082)
+
+**Jiazhe Wei** *, Ken Li *, Tianyu Lao, Haofan Wang, Liang Wang, Caifeng Shan, Chenyang Si
+
+[**[PDF]**](https://arxiv.org/pdf/2512.04082)  [**[Project Page]**](https://postercopilot.github.io/) [**[Github]**](https://github.com/JiazheWei/PosterCopilot)  <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *We introduce PosterCopilot, the first graphic design framework that fully integrates visual feedback with human aesthetics. Leveraging our Generative Agent and the design model's powerful reasoning capabilities, it enables layer-level, multi-round, high-fidelity editing.*
+
+</div>
+
+</div>
+---
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025 Oral</div><img src='images/ALM-PU.png' alt="ALM-PU" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
 
 <div class='paper-box-text' markdown="1">
@@ -53,7 +70,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 [NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning](https://openreview.net/pdf?id=yexIJEru0l)
 
-Ken Li, **Jiazhe Wei**, Bo Dong, Bin Shi
+Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
 
 [**[PDF]**](https://openreview.net/pdf?id=yexIJEru0l) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 
