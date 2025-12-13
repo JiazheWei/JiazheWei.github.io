@@ -29,37 +29,38 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 # 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
 
-<div style="display: flex; gap: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffdf; border-radius: 8px;">
-  <div style="flex-shrink: 0;">
-    <img src="images/ALM-PU.png" alt="ALM-PU" style="width: 165px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
-  </div>
-  <div style="flex-grow: 1;">
-    <p style="margin: 0 0 8px 0;"><strong style="font-size: 16px; color: #456fc3;">ALM-PU: Positive and Unlabeled learning with constrained optimization</strong></p>
-    <p style="margin: 0 0 8px 0; font-size: 14px;"><strong><u>Jiazhe Wei</u>*</strong>, Yuefei Wu*, Ken Li, Bo Dong, Bin Shi</p>
-    <p style="margin: 0 0 8px 0; font-size: 14px;"><em>Accepted at the proceedings of ECML-PKDD2025 Journal Track as oral presentation.</em></p>
-    <p style="margin: 0 0 8px 0; font-size: 14px;">
-      <a href="https://link.springer.com/article/10.1007/s10994-025-06849-3" target="_blank">Paper</a> / 
-      <a href="https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization" target="_blank">Code</a>
-    </p>
-    <p style="margin: 0; font-size: 13px; color: #666;">We propose a novel constraint optimization-based PU-learning framework, which overcomes classifiers' negative classification bias and enhances sample discrimination capability by imposing distinct mathematical constraints on labeled and unlabeled sample sets and resolving the problem through systematic optimization.</p>
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECML-PKDD 2025 Oral</div><img src='images/ALM-PU.png' alt="ALM-PU" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[ALM-PU: Positive and Unlabeled learning with constrained optimization](https://link.springer.com/article/10.1007/s10994-025-06849-3)
+
+**Jiazhe Wei**<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Yuefei Wu<sup style="font-size: 1.1em; position: relative; top: -2px;">*</sup>, Ken Li, Bo Dong, Bin Shi<sup>†</sup>
+
+[**[PDF]**](https://link.springer.com/article/10.1007/s10994-025-06849-3) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>    [**[Github]**](https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *We propose a novel constraint optimization-based PU-learning framework, which enhances sample discrimination capability by imposing distinct mathematical constraints on samples and resolving the problem through systematic optimization.*
+
+</div>
+
 </div>
 
 ---
 
-<div style="display: flex; gap: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffdf; border-radius: 8px;">
-  <div style="flex-shrink: 0;">
-    <img src="images/backdoor.png" alt="NI-GDBA" style="width: 175px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
-  </div>
-  <div style="flex-grow: 1;">
-    <p style="margin: 0 0 8px 0;"><strong style="font-size: 16px; color: #456fc3;">NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning</strong></p>
-    <p style="margin: 0 0 8px 0; font-size: 14px;">Ken Li, <strong><u>Jiazhe Wei</u></strong>, Bo Dong, Bin Shi</p>
-    <p style="margin: 0 0 8px 0; font-size: 14px;"><em>Accepted at the proceedings of WWW2025 Research Track as oral presentation.</em></p>
-    <p style="margin: 0 0 8px 0; font-size: 14px;">
-      <a href="https://openreview.net/pdf?id=yexIJEru0l" target="_blank">Paper</a>
-    </p>
-    <p style="margin: 0; font-size: 13px; color: #666;">We propose a non-intrusive graph distributed backdoor attack(NI-GDBA) that does not require backdoor triggers to be injected in the training data.</p>
-  </div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025 Oral</div><img src='images/backdoor.png' alt="NI-GDBA" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+
+<div class='paper-box-text' markdown="1">
+
+[NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning](https://openreview.net/pdf?id=yexIJEru0l)
+
+Ken Li, **Jiazhe Wei**, Bo Dong, Bin Shi
+
+[**[PDF]**](https://openreview.net/pdf?id=yexIJEru0l) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+**TL;DR:** *We propose a non-intrusive graph distributed backdoor attack(NI-GDBA) that does not require backdoor triggers to be injected in the training data.*
+
+</div>
+
 </div>
 
 ---
