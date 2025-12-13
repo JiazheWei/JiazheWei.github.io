@@ -19,7 +19,7 @@ redirect_from:
 
 # Biography
 
-Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring in Intelligent Science and Technology at Nanjing University and doing research at [Pattern Recognition Lab](https://prlab-nju.com/nju/) @NJU, supervised by Prof. [Chenyang Si](https://scholar.google.com/citations?hl=en&user=XdahAuoAAAAJ) and Prof. [Tieniu Tan](https://scholar.google.com/citations?user=W-FGd_UAAAAJ&hl=en).
+Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring in Artificial Intelligence  at Nanjing University and doing research at [Pattern Recognition Lab](https://prlab-nju.com/nju/) @NJU, supervised by Prof. [Chenyang Si](https://scholar.google.com/citations?hl=en&user=XdahAuoAAAAJ) and Prof. [Tieniu Tan](https://scholar.google.com/citations?user=W-FGd_UAAAAJ&hl=en).
 
 My research interests mainly focus on: **1) Highly Controllable Visual Generative Models; 2) World Foundation Models; 3) Efficient Generative Models and Model Compression; 4) Unified Multi-modal Learning**. 
 
@@ -159,27 +159,14 @@ Ken Li, Bin Shi, **Jiazhe Wei**, Bo Dong
   </div>
 </div>
 
+# 💬 Talks ＆ Reports
+- *2025.10*  [2025CCF优秀大学生启航计划发布典礼在哈尔滨举行](https://mp.weixin.qq.com/s/Ow8jv2IaTbJfSFF3BhfaOw)
+- *2025.07*  [【奋斗点亮青春】宝钢优秀学生奖：魏佳哲——风起青萍之末，浪成微澜之间](https://mp.weixin.qq.com/s/iRWxzOPyzQ82-qLAwOX7xA) *-Interview by Baosteel Education Foundation*
 
-# 💻 Engineering Experience
+# 📋 Service
 
-<!-- 需要图片: files/work/Paranormal-XJTU.png -->
-
-**Paranormal-XJTU: A 2D game developed by Unity**
-
-*May, 2024, Project Leader & 6-people Team*
-
-As an ordinary college student, one day you suddenly found that your school began to circulate a variety of ghosts and monsters. At the same time, your classmates also behaved abnormally one after another, and you, how will you solve the mystery?
-
-[[Play](https://github.com/Team-Ferry/Paranormal-XJTU?tab=readme-ov-file)]
-
-# 👔 Leadership Experience
-
-- *2023.04 - present*, **Captain**, [XJTU deep learning seminar](https://xjtu-deeplearning-seminar.github.io/dl-discussion/)
-- *2024.07 - present*, **Captain of the Computer Experimental Class**
-
-# 📋 Academic Services
-
-**Reviewer**: AAAI 2025, ECML-PKDD 2025
+- **Reviewer**: AAAI 2025, ECML-PKDD 2025
+- **Co-Founder** of XJTU Deep Learning Seminar
 
 ---
 
