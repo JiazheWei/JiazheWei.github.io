@@ -49,7 +49,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 <div style="display: flex; gap: 20px; margin-bottom: 30px; padding: 15px; background-color: #ffffdf; border-radius: 8px;">
   <div style="flex-shrink: 0;">
-    <img src="images/backdoor.png" alt="NI-GDBA" style="width: 165px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
+    <img src="images/backdoor.png" alt="NI-GDBA" style="width: 175px; height: auto; border-radius: 5px; box-shadow: 2px 2px 5px rgba(0,0,0,0.2);">
   </div>
   <div style="flex-grow: 1;">
     <p style="margin: 0 0 8px 0;"><strong style="font-size: 16px; color: #456fc3;">NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning</strong></p>
@@ -148,5 +148,5 @@ As an ordinary college student, one day you suddenly found that your school bega
 
 ---
 
-<p style="text-align: center; font-size: small;"><i>Latest updated in Feb. 2025</i></p>
+<p style="text-align: center; font-size: small;"><i>Latest updated in Dec. 2025</i></p>
 <p style="text-align: center;">© Jiazhe Wei</p>
