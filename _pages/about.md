@@ -29,7 +29,7 @@ My research interests mainly focus on: **1) Highly Controllable Visual Generativ
 
 # 📝 Publications | [Google Scholar](https://scholar.google.com/citations?user=UgKRQJwAAAAJ&hl=en&oi=ao)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/teaser.png' alt="PosterCopilot" style="width: 100%; height: auto; object-fit: cover; max-height: 200px;"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='images/teaser.png' alt="PosterCopilot" style="width: 100%; height: auto; object-fit: cover; max-height: 280px;"></div></div>
 
 <div class='paper-box-text' markdown="1">
 
