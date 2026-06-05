@@ -1,23 +1,38 @@
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
-<link rel="manifest" href="images/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"></noscript>
 
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="images/mstile-144x144.png?v=M44lzPylqQ">
-<meta name="msapplication-config" content="images/browserconfig.xml?v=M44lzPylqQ">
-<meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="assets/css/academicons.css"/>
+<link rel="preload" href="{{ "/assets/fonts/fa-solid-900.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "/assets/fonts/fa-brands-400.woff2" | relative_url }}" as="font" type="font/woff2" crossorigin>
 
-<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "/images/apple-touch-icon.png" | relative_url }}">
+<link rel="shortcut icon" href="{{ "/images/favicon.ico" | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "/images/favicon-32x32.png" | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "/images/favicon-16x16.png" | relative_url }}">
+<link rel="manifest" href="{{ "/images/site.webmanifest" | relative_url }}">
+<meta name="theme-color" content="#f3f5f8">
+
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
+    TeX: { equationNumbers: { autoNumber: "all" } },
     tex2jax: {
       inlineMath: [ ['$','$'], ["\\(","\\)"] ],
       processEscapes: true
     }
   });
 </script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
-<!-- end custom head snippets -->
+<script>
+  // Load MathJax after page is interactive to avoid blocking initial render
+  function _loadMathJax() {
+    var s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML';
+    s.async = true;
+    document.head.appendChild(s);
+  }
+  if (document.readyState === 'complete') {
+    _loadMathJax();
+  } else {
+    window.addEventListener('load', _loadMathJax);
+  }
+</script>

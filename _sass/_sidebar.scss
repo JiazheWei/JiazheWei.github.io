@@ -7,17 +7,17 @@
    ========================================================================== */
 
 .sidebar {
-  -webkit-transform: translate3d(0, 0 , 0);
-          transform: translate3d(0, 0 , 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 
   @include clearfix();
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @include breakpoint(1000px) {
     @include span(2 of 12);
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-in-out;
-            transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
@@ -68,7 +68,7 @@
 /*
    Author profile and links
    ========================================================================== */
-.profile_box{
+.profile_box {
   @include breakpoint($large) {
     display: block;
   }
@@ -94,7 +94,10 @@
   img {
     max-width: 175px;
     min-width: 75px;
-    border-radius: 50%;
+    border-radius: 0;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 
     @include breakpoint($large) {
       padding: 5px;
@@ -142,6 +145,22 @@
   @include breakpoint($large) {
     margin-top: 10px;
     margin-bottom: 20px;
+  }
+
+  a {
+    &:link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover {
+      color: $link-color-hover;
+      text-decoration: underline;
+    }
   }
 }
 
@@ -253,17 +272,20 @@
   }
 }
 
-.author__urls_sm{
+.author__urls_sm {
   padding: .25em;
   font-size: 1.75em;
   display: block;
+
   a {
     color: inherit;
     text-decoration: none;
+
     &:hover {
       text-decoration: underline;
     }
   }
+
   @include breakpoint($large) {
     display: none;
   }
