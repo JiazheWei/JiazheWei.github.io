@@ -1,4 +1,5 @@
 # <i class="fas fa-award section-icon"></i> Honors and Awards
+- *2026* **Outstanding Gratuate by XJTU**
 
 - *2025* **CCF Elite Collegiate Award**, Awarded to 99 top Chinese undergraduates major in CS&AI nationwide
 

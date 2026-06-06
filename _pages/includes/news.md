@@ -1,6 +1,8 @@
 # <i class="fas fa-newspaper section-icon"></i> News
 
 {% capture news_items %}
+- *2026.04:* 🏆 Awarded the Outstanding Graduate by XJTU.
+
 - *2025.12:* 🎉 **PosterCopilot** is now available on [arXiv](https://arxiv.org/pdf/2512.04082), code is under construction.
 
 - *2025.09:* 🏆 Awarded **CCF Elite Collegiate Award** of 2025. See you in Harbin.
