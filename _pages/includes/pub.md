@@ -10,14 +10,14 @@
 <div class='paper-box' data-core='true'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge core">Key Contributor</div>
+      <div class="badge preprint">Preprint</div>
       <a href="/images/teaser.png"><img src='/images/teaser.png' alt="PosterCopilot" width="100%"></a>
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/pdf/2512.04082"><b>PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design</b></a> \\
-*arXiv, 2025* \\
+<span class="venue-card">arXiv, 2025</span> \\
 **<span class="author-highlight">Jiazhe Wei*</span>**, Ken Li\*, Tianyu Lao, Haofan Wang, Liang Wang, Caifeng Shan, Chenyang Si \\
 [<a href="https://arxiv.org/pdf/2512.04082">PDF</a>] [<a href="https://postercopilot.github.io/">Project Page</a>] [<a href="https://github.com/JiazheWei/PosterCopilot">Code</a>]
 
@@ -31,14 +31,14 @@
 <div class='paper-box' data-core='true'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge core">Key Contributor</div>
+      <div class="badge oral">Oral</div>
       <a href="/images/ALM-PU.png"><img src='/images/ALM-PU.png' alt="ALM-PU" width="100%"></a>
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://link.springer.com/article/10.1007/s10994-025-06849-3"><b>ALM-PU: Positive and Unlabeled learning with constrained optimization</b></a> \\
-*ECML-PKDD, 2025 (Oral)* \\
+<span class="venue-card">ECML-PKDD, 2025</span> \\
 **<span class="author-highlight">Jiazhe Wei*</span>**, Yuefei Wu\*, Ken Li, Bo Dong, Bin Shi† \\
 [<a href="https://link.springer.com/article/10.1007/s10994-025-06849-3">PDF</a>] [<a href="https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization">Code</a>]
 
@@ -52,14 +52,14 @@
 <div class='paper-box' data-core='true'>
   <div class='paper-box-image'>
     <div>
-      <!-- <div class="badge"></div> -->
+      <div class="badge oral">Oral</div>
       <a href="/images/backdoor.png"><img src='/images/backdoor.png' alt="NI-GDBA" width="100%"></a>
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://openreview.net/pdf?id=yexIJEru0l"><b>NI-GDBA: Non-Intrusive Distributed Backdoor Attack Based on Adaptive Perturbation on Federated Graph Learning</b></a> \\
-*WWW, 2025 (Oral)* \\
+<span class="venue-card">WWW, 2025</span> \\
 Ken Li, Bin Shi, **<span class="author-highlight">Jiazhe Wei</span>**, Bo Dong \\
 [<a href="https://openreview.net/pdf?id=yexIJEru0l">PDF</a>]
 

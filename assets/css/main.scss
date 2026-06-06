@@ -150,9 +150,33 @@ h1:before, .anchor:before {
     box-shadow: 0 4px 6px rgba(26, 137, 23, 0.3);
 } /* Core: green */
 .badge.non-core { background-color: #6c757d; } /* Non-core: gray */
+.badge.oral {
+    background-color: #d9810a;
+    box-shadow: 0 4px 6px rgba(217, 129, 10, 0.32);
+} /* Oral / spotlight: amber */
+.badge.preprint {
+    background-color: #5b738f;
+    box-shadow: 0 4px 6px rgba(91, 115, 143, 0.28);
+} /* Preprint / under review: slate */
 
 /* image wrapper for badge overlay */
 .paper-box-image > div { position: relative; display: inline-block; }
+
+/* Venue tag under the paper title — warm card to contrast the cool-blue theme */
+.venue-card {
+    display: inline-block;
+    margin: 0.18em 0;
+    padding: 0.12em 0.55em;
+    background-color: #fdf3e3;
+    border: 1px solid #ecd3ab;
+    border-radius: 5px;
+    color: #9a5a05;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.92em;
+    letter-spacing: 0.01em;
+    box-shadow: 0 1px 2px rgba(140, 90, 0, 0.06);
+}
 
 /* Segmented control — used for pub filter and news toggle */
 .seg-control {
