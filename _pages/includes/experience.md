@@ -1,4 +1,4 @@
-# <i class="fas fa-flask section-icon"></i> Research & Intern Experience
+# <i class="fas fa-flask section-icon"></i> Internships
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="images/wechat-vision.png" alt="WeChat Vision @ Tencent" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
@@ -54,4 +54,16 @@
     <p style="margin: 5px 0; font-size: 14px;"><em>2023.09 - 2024.10, Research Assistant, Xi'an, China</em></p>
     <p style="margin: 5px 0; font-size: 14px;">This was a period filled with bitterness and twists and turns -- a detour I had to take in my research career. Despite this, I remain grateful for the experience, as it taught me early on what kind of taste an independent researcher should cultivate, what abilities they must possess, and the importance of reaching outward to embrace the whole world.</p>
   </div>
+</div>
+
+# <i class="fas fa-th-large section-icon"></i> My Projects
+
+<div class="app-cards">
+  <!-- Projects coming soon -->
+</div>
+
+# <i class="fas fa-images section-icon"></i> Gallery
+
+<div class="app-cards">
+  <!-- Gallery coming soon -->
 </div>

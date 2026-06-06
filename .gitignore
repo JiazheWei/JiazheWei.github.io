@@ -1,4 +1,15 @@
+# Jekyll 构建产物与缓存
 _site/
-push.sh
-.DS_Store
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler / 本地安装的 gem 依赖（可由 bundle install 重新生成）
 .bundle/
+vendor/
+
+# 本地备份文件
+*.bak
+
+# 系统与杂项
+.DS_Store
+push.sh

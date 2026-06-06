@@ -5,15 +5,3 @@ Hi! I am **Jiazhe Wei (魏佳哲)**, an <u>incoming master student</u> majoring 
 I have completed research internships at CERN, Westlake University, and Lovart.AI, and I'm currently interning in the Video Generation Foundation Group at WeChat Vision @ Tencent, where I work with Dr. [Binxin Yang](https://binxinyang.github.io/) and Dr. [Chen Li](https://scholar.google.com/citations?user=WDJL3gYAAAAJ&hl=zh-TW) on video editing foundation training and world models. These experiences across fundamental science, academia, and industry have shaped my pursuit of controllable and efficient generative intelligence. Concretely, my research interests focus on: **1) Highly Controllable Visual Generative Models; 2) World Foundation Models; 3) Efficient Generative Models and Model Compression; 4) Unified Multi-modal Learning**.
 
 ✨ <span class="highlight-red">*I'm always open to all kinds of cooperation and discussion.*</span> **You can contact me via email or WeChat: wjz_void.**
-
-## <i class="fas fa-th-large section-icon"></i> My Projects
-
-<div class="app-cards">
-  <!-- Projects coming soon -->
-</div>
-
-## <i class="fas fa-images section-icon"></i> Gallery
-
-<div class="app-cards">
-  <!-- Gallery coming soon -->
-</div>
