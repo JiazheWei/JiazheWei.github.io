@@ -16,7 +16,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
+# wdm (native Windows file-watching) removed: unmaintained, fails to compile on
+# Ruby 3.3+. Jekyll's `listen` falls back to polling on Windows — auto-reload
+# still works during `jekyll serve`/`liveserve`.
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

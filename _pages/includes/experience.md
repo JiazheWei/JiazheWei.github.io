@@ -1,10 +1,22 @@
 # <i class="fas fa-flask section-icon"></i> Research & Intern Experience
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
+  <img src="images/wechat-vision.png" alt="WeChat Vision @ Tencent" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+  <div>
+    <p style="margin: 0;"><strong>WeChat Vision @ Tencent, Video Generation Foundation Group</strong></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2026.05 - Present, Research Intern, Shenzhen, China</em></p>
+    <p style="margin: 5px 0; font-size: 14px;">Research Topics: Video Editing Foundation Model Training, World Models</p>
+    <p style="margin: 5px 0; font-size: 14px;">Working with Dr. <a href="https://binxinyang.github.io/">Binxin Yang</a> and Dr. <a href="https://scholar.google.com/citations?user=WDJL3gYAAAAJ&hl=zh-TW">Chen Li</a></p>
+  </div>
+</div>
+
+---
+
+<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="images/Lovart-logo.png" alt="lovart" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
   <div>
     <p style="margin: 0;"><strong><a href="https://www.lovart.ai/">Lovart</a>, AIGC Research Team</strong></p>
-    <p style="margin: 5px 0; font-size: 14px;"><em>2025.08 - Present, Intern Research Scientist, Shanghai, China</em></p>
+    <p style="margin: 5px 0; font-size: 14px;"><em>2025.08 - 2026.05, Intern Research Scientist, Shanghai, China</em></p>
     <p style="margin: 5px 0; font-size: 14px;">Research Topics: 1) Interactive Image Editing, 2) Efficient Generative Models, 3) Multi-modal learning</p>
     <p style="margin: 5px 0; font-size: 14px;">Working with <a href="https://haofanwang.github.io/">Haofan Wang</a>.</p>
   </div>
