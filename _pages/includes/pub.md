@@ -17,7 +17,7 @@
   <div class='paper-box-text' markdown="1">
 
 <a class=PaperTitle href="https://arxiv.org/pdf/2512.04082"><b>PosterCopilot: Toward Layout Reasoning and Controllable Editing for Professional Graphic Design</b></a> \\
-<span class="venue-card">arXiv, 2025</span> \\
+<span class="venue-card">ECCV,2026</span> \\
 **<span class="author-highlight">Jiazhe Wei*</span>**, Ken Li\*, Tianyu Lao, Haofan Wang, Liang Wang, Caifeng Shan, Chenyang Si \\
 [<a href="https://arxiv.org/pdf/2512.04082">PDF</a>] [<a href="https://postercopilot.github.io/">Project Page</a>] [<a href="https://github.com/JiazheWei/PosterCopilot">Code</a>]
 
