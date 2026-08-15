@@ -25,18 +25,6 @@
 ---
 
 <div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="images/linslab.png" alt="LinsLab" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
-  <div>
-    <p style="margin: 0;"><strong><a href="https://lins-lab.github.io/">LinsLab</a>, Learning and Inference Systems Lab, Westlake University & Zhejiang University</strong></p>
-    <p style="margin: 5px 0; font-size: 14px;"><em>2024.11 - 2025.02, Visiting Student, Hangzhou, China</em></p>
-    <p style="margin: 5px 0; font-size: 14px;">Research Topics: Efficient Diffusion Models and Flow Matching Models</p>
-    <p style="margin: 5px 0; font-size: 14px;">Working with <a href="https://www.westlake.edu.cn/faculty/tao-lin.html">Prof. Tao Lin</a> and <a href="https://sp12138.github.io/">Dr. Peng Sun</a></p>
-  </div>
-</div>
-
----
-
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
   <img src="images/CERN.jpg" alt="CERN" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
   <div>
     <p style="margin: 0;"><strong>European Organization for Nuclear Research & CERN</strong></p>
@@ -45,21 +33,20 @@
   </div>
 </div>
 
----
+# <i class="fas fa-th-large section-icon"></i> Project
 
-<div style="display: flex; align-items: center; margin-bottom: 20px;">
-  <img src="images/xjtu.png" alt="BDKElab" style="width: 100px; height: 100px; margin-right: 20px; object-fit: contain; flex-shrink: 0;">
-  <div>
-    <p style="margin: 0;"><strong><a href="https://bdkelab.xjtu.edu.cn/sysjj/sysjj.htm">BDKElab</a>, Xi'an Jiaotong University</strong></p>
-    <p style="margin: 5px 0; font-size: 14px;"><em>2023.09 - 2024.10, Research Assistant, Xi'an, China</em></p>
-    <p style="margin: 5px 0; font-size: 14px;">This was a period filled with bitterness and twists and turns -- a detour I had to take in my research career. Despite this, I remain grateful for the experience, as it taught me early on what kind of taste an independent researcher should cultivate, what abilities they must possess, and the importance of reaching outward to embrace the whole world.</p>
-  </div>
-</div>
-
-# <i class="fas fa-th-large section-icon"></i> My Projects
-
-<div class="app-cards">
-  <!-- Projects coming soon -->
+<div class="app-cards app-cards--projects">
+  <a class="app-card" href="https://github.com/kiyotakali/Miru" data-github-repo="kiyotakali/Miru" data-fallback-stars="65" rel="noopener noreferrer">
+    <span class="app-card__inner">
+      <img class="app-card__image" src="images/miru.png" alt="Miru open-source AI companion" width="1600" height="560" loading="lazy" decoding="async">
+      <span class="app-card__name">Miru 見る</span>
+      <span class="app-card__desc">Open-source AI companion with verifiable long-term memory, proactive companionship, and self-hosted multi-device synchronization.</span>
+      <span class="app-card__meta" data-github-star-display role="img" aria-label="65 GitHub stars">
+        <i class="fas fa-star" aria-hidden="true"></i>
+        <span data-github-star-count>65</span><span aria-hidden="true"> stars</span>
+      </span>
+    </span>
+  </a>
 </div>
 
 # <i class="fas fa-images section-icon"></i> Gallery

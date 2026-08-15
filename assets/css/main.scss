@@ -468,6 +468,24 @@ h1:before, .anchor:before {
   margin: 1em 0 1.5em;
 }
 
+/* Project cards keep room for three comfortably sized items per desktop row. */
+.app-cards--projects {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1em;
+}
+
+@media (min-width: 40em) {
+  .app-cards--projects {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 57.8125em) {
+  .app-cards--projects {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
 /* <a> is the static hit area — never moves, so no flicker at edges */
 .app-card {
   display: block;
@@ -509,6 +527,17 @@ h1:before, .anchor:before {
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease, background 0.2s ease;
 }
 
+.app-card__image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 7px;
+  margin-bottom: 0.45em;
+  background: var(--c-bg-end);
+}
+
 .app-card__name {
   font-weight: 700;
   font-size: $app-card-name-size;
@@ -520,6 +549,23 @@ h1:before, .anchor:before {
   line-height: 1.5;
   opacity: 0.7;
   color: inherit;
+}
+
+.app-card__meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-top: auto;
+  padding-top: 0.25em;
+  color: inherit;
+  font-size: $app-card-desc-size;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.76;
+
+  i {
+    color: #b7791f;
+    font-size: 0.9em;
+  }
 }
 
 /* Custom Highlights */
