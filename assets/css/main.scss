@@ -178,6 +178,103 @@ h1:before, .anchor:before {
     box-shadow: 0 1px 2px rgba(140, 90, 0, 0.06);
 }
 
+/* Publication resource links — icon-led buttons replacing bracketed text links */
+.paper-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem;
+    margin: 0.5em 0 0.8em;
+}
+
+.paper-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.42em;
+    min-height: 2.35rem;
+    box-sizing: border-box;
+    padding: 0.42em 0.78em;
+    border: 1.5px solid var(--c-border);
+    border-radius: 8px;
+    background: linear-gradient(135deg, var(--c-bg-start) 0%, var(--c-bg-end) 100%);
+    color: var(--c-text) !important;
+    font-size: 0.88em;
+    font-weight: 600;
+    line-height: 1;
+    text-decoration: none !important;
+    box-shadow: 0 1px 3px rgba(26, 54, 84, 0.06);
+    transition: background 0.18s ease, border-color 0.18s ease,
+                box-shadow 0.18s ease, color 0.18s ease, transform 0.18s ease;
+
+    i {
+        width: 1.05em;
+        color: var(--paper-link-accent);
+        font-size: 1.04em;
+        text-align: center;
+    }
+
+    &:hover {
+        border-color: var(--paper-link-accent);
+        background: var(--paper-link-hover-bg);
+        color: var(--c-hover-text) !important;
+        text-decoration: none !important;
+        box-shadow: 0 3px 10px rgba(var(--glow-rgb), 0.14);
+        transform: translateY(-1px);
+    }
+
+    &:focus-visible {
+        outline: 2px solid var(--paper-link-accent);
+        outline-offset: 2px;
+        text-decoration: none !important;
+    }
+
+    &:active {
+        transform: translateY(0);
+    }
+}
+
+.paper-link--pdf {
+    --paper-link-accent: #b31b1b;
+    --paper-link-hover-bg: #fff1f0;
+    border-color: rgba(179, 27, 27, 0.24);
+    background: linear-gradient(135deg, #ffffff 0%, #fff6f5 100%);
+}
+
+.paper-link--project {
+    --paper-link-accent: #2873a8;
+    --paper-link-hover-bg: #edf7ff;
+    border-color: rgba(40, 115, 168, 0.24);
+    background: linear-gradient(135deg, #ffffff 0%, #f3f9ff 100%);
+}
+
+.paper-link--code {
+    --paper-link-accent: #24292f;
+    --paper-link-hover-bg: #f0f2f4;
+    border-color: rgba(36, 41, 47, 0.2);
+    background: linear-gradient(135deg, #ffffff 0%, #f5f6f7 100%);
+}
+
+.paper-link__arxiv-mark {
+    color: var(--paper-link-accent);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: -0.055em;
+    line-height: 1;
+}
+
+@media (max-width: 480px) {
+    .paper-links {
+        gap: 0.4rem;
+    }
+
+    .paper-link {
+        min-height: 2.75rem;
+        padding: 0.48em 0.82em;
+    }
+}
+
 /* Segmented control — used for pub filter and news toggle */
 .seg-control {
   position: relative;
