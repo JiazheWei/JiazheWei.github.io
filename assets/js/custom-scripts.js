@@ -169,6 +169,129 @@
   });
 })();
 
+// ── GitHub stars — fetched via Shields and kept fresh on a 30-minute TTL ────
+(function () {
+  var REFRESH_MS = 30 * 60 * 1000;
+  var CHECK_MS = 60 * 1000;
+  var CACHE_PREFIX = 'jiazhewei:github-stars:';
+  var inFlight = {};
+
+  function getTrackers() {
+    return document.querySelectorAll('[data-github-repo]');
+  }
+
+  function formatCount(count) {
+    var raw;
+    if (typeof count === 'number') {
+      if (!isFinite(count) || count < 0 || Math.floor(count) !== count) return null;
+      raw = String(count);
+    } else if (typeof count === 'string') {
+      raw = count.trim();
+    } else {
+      return null;
+    }
+
+    if (/^\d+$/.test(raw)) return Number(raw).toLocaleString('en-US');
+    if (/^\d+(?:\.\d+)?[kKmMbBtT]$/.test(raw)) return raw;
+    return null;
+  }
+
+  function renderCount(repo, count) {
+    var formatted = formatCount(count);
+    if (!formatted) return;
+    getTrackers().forEach(function (tracker) {
+      if (tracker.getAttribute('data-github-repo') !== repo) return;
+
+      var display = tracker.querySelector('[data-github-star-display]');
+      var countNode = tracker.querySelector('[data-github-star-count]');
+      if (!display || !countNode) return;
+
+      countNode.textContent = formatted;
+      display.setAttribute('aria-label', formatted + ' GitHub stars');
+      display.hidden = false;
+    });
+  }
+
+  function readCache(repo) {
+    try {
+      var cached = JSON.parse(window.localStorage.getItem(CACHE_PREFIX + repo));
+      if (!cached || !formatCount(cached.count) ||
+          typeof cached.updatedAt !== 'number') return null;
+      return cached;
+    } catch (error) {
+      return null;
+    }
+  }
+
+  function writeCache(repo, count) {
+    try {
+      window.localStorage.setItem(CACHE_PREFIX + repo, JSON.stringify({
+        count: count,
+        updatedAt: Date.now()
+      }));
+    } catch (error) {
+      // Star counts still work when storage is unavailable; they just are not cached.
+    }
+  }
+
+  function fetchCount(repo) {
+    if (inFlight[repo]) return inFlight[repo];
+    if (typeof window.fetch !== 'function') return null;
+
+    var encodedRepo = repo.split('/').map(encodeURIComponent).join('/');
+    var request = window.fetch('https://img.shields.io/github/stars/' + encodedRepo + '.json', {
+      credentials: 'omit'
+    }).then(function (response) {
+      if (!response.ok) throw new Error('Star service returned ' + response.status);
+      return response.json();
+    }).then(function (data) {
+      var rawCount = data && data.value;
+      var formatted = formatCount(rawCount);
+      if (!formatted) throw new Error('Star service returned an invalid count');
+      renderCount(repo, formatted);
+      writeCache(repo, formatted);
+      return formatted;
+    });
+
+    inFlight[repo] = request.then(function (count) {
+      delete inFlight[repo];
+      return count;
+    }, function () {
+      delete inFlight[repo];
+      return null;
+    });
+
+    return inFlight[repo];
+  }
+
+  function refreshCounts() {
+    if (document.hidden) return;
+
+    var now = Date.now();
+    var reposToFetch = {};
+    getTrackers().forEach(function (tracker) {
+      var repo = tracker.getAttribute('data-github-repo');
+      if (!repo) return;
+
+      var cached = readCache(repo);
+      if (cached) renderCount(repo, cached.count);
+      if (!cached || now - cached.updatedAt >= REFRESH_MS) reposToFetch[repo] = true;
+    });
+
+    Object.keys(reposToFetch).forEach(fetchCount);
+  }
+
+  document.addEventListener('DOMContentLoaded', function () {
+    if (!getTrackers().length) return;
+
+    refreshCounts();
+    window.setInterval(refreshCounts, CHECK_MS);
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) refreshCounts();
+    });
+  });
+})();
+
 // Segmented control — move indicator to the active segment
 function moveSegIndicator(control, activeBtn) {
   var indicator = control.querySelector('.seg-indicator');

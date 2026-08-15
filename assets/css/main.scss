@@ -264,6 +264,29 @@ h1:before, .anchor:before {
     line-height: 1;
 }
 
+.paper-link__stars {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 0.28em;
+    margin-left: 0.12em;
+    padding-left: 0.52em;
+    border-left: 1px solid rgba(36, 41, 47, 0.2);
+    color: #805b10;
+    font-size: 0.88em;
+    font-variant-numeric: tabular-nums;
+
+    &[hidden] {
+        display: none;
+    }
+
+    i {
+        width: auto;
+        color: #b7791f;
+        font-size: 0.8em;
+    }
+}
+
 @media (max-width: 480px) {
     .paper-links {
         gap: 0.4rem;
