@@ -47,8 +47,8 @@
 :root {
   /* --- Cool Blue (only theme) --- */
   --bg:              #f3f5f8;
-  --masthead-bg:     #e3e8ef;
-  --masthead-border: #d3dae3;
+  --masthead-bg:     #469ce5;
+  --masthead-border: rgba(16, 72, 115, 0.32);
   --paper-border:    #dde4ed;
   --paper-hover:     #e8eef5;
   --h1-border:       #ccd4de;
@@ -618,6 +618,7 @@ body, #main {
 .masthead {
     background-color: var(--masthead-bg) !important;
     border-bottom: 1px solid var(--masthead-border);
+    box-shadow: 0 2px 12px rgba(16, 72, 115, 0.16);
 }
 /* Nav bar inside masthead: transparent so it inherits masthead color */
 .greedy-nav {
@@ -661,31 +662,50 @@ body, #main {
 .site-nav__link {
     padding: $nav-link-padding !important; /* locked height — same on all screen sizes */
     border-radius: 7px;
-    font-weight: normal !important;
+    font-weight: 600 !important;
     font-family: inherit;
     font-size: inherit;
     text-decoration: none !important;
-    color: inherit;
+    color: #102847 !important;
+    letter-spacing: 0.005em;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
     white-space: nowrap;
-    transition: background 0.2s ease, color 0.2s ease;
+    transition: background 0.2s ease, color 0.2s ease,
+                box-shadow 0.2s ease, text-shadow 0.2s ease;
 
     &.nav-active {
-        background: rgba(var(--glow-rgb), 0.13);
+        background: rgba(255, 255, 255, 0.88);
+        color: #0d4772 !important;
+        text-shadow: none;
+        box-shadow: 0 2px 8px rgba(16, 40, 71, 0.18),
+                    inset 0 0 0 1px rgba(255, 255, 255, 0.72);
     }
 
     &:focus {
-        outline: none;
-        background: rgba(var(--glow-rgb), 0.07);
+        outline: 2px solid #102847;
+        outline-offset: 1px;
+        background: rgba(255, 255, 255, 0.3);
+        color: #102847 !important;
         text-decoration: none !important;
-        box-shadow: 0 0 0 4px rgba(var(--glow-rgb), 0.08);
+        box-shadow: 0 0 0 4px rgba(16, 40, 71, 0.16);
+    }
+
+    &.nav-active:focus {
+        background: rgba(255, 255, 255, 0.94);
     }
 }
 
 /* Hover only on real pointer devices — prevents sticky hover on touch screens */
 @media (hover: hover) and (pointer: fine) {
     .site-nav__link:hover {
-        background: rgba(var(--glow-rgb), 0.07);
+        background: rgba(255, 255, 255, 0.24);
+        color: #0b2844 !important;
         text-decoration: none !important;
+    }
+
+    .site-nav__link.nav-active:hover {
+        background: rgba(255, 255, 255, 0.94);
+        color: #0d4772 !important;
     }
 }
 

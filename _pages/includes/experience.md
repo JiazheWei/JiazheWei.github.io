@@ -36,7 +36,7 @@
 # <i class="fas fa-th-large section-icon"></i> Project
 
 <div class="app-cards app-cards--projects">
-  <a class="app-card" href="https://github.com/kiyotakali/Miru" data-github-repo="kiyotakali/Miru" data-fallback-stars="65" rel="noopener noreferrer">
+  <a class="app-card" href="https://mirulife.top/" data-github-repo="kiyotakali/Miru" data-fallback-stars="65" rel="noopener noreferrer">
     <span class="app-card__inner">
       <img class="app-card__image" src="images/miru.png" alt="Miru open-source AI companion" width="1600" height="560" loading="lazy" decoding="async">
       <span class="app-card__name">Miru 見る</span>
