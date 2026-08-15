@@ -7,6 +7,27 @@
 </div>
 
 
+<div class='paper-box' data-core='false'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge preprint">Preprint</div>
+      <a href="/images/aurora-lm.png"><img src='/images/aurora-lm.png' alt="AURORA-LM" width="100%"></a>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://arxiv.org/pdf/2608.02602"><b>AURORA-LM: Autoencoding Unified Representation for Continuous-Latent Diffusion Language Modeling</b></a> \\
+<span class="venue-card">arXiv, 2026</span> \\
+Jiajun Liang\*, Yucheng Liao\*, Yukang Cao\*, **<span class="author-highlight">Jiazhe Wei</span>**, Ken Li, Wende Tan, Jiankun Zhang, ZY Cui, Jingkang Yang, Liucheng Guo, Shiqi Yang, B. Yang, Caifeng Shan, Ziwei Liu, Chenyang Si† \\
+[<a href="https://arxiv.org/pdf/2608.02602">PDF</a>] [<a href="https://aurora-lm-project.github.io/">Project Page</a>] [<a href="https://github.com/fyv587/AURORA-LM">Code</a>]
+
+**TL;DR:** *We introduce AURORA-LM, a continuous-latent diffusion language model that preserves a high-capacity, decodable text latent instead of compressing it to ease diffusion. A query-based encoder-decoder builds the latent sequence, and a block-causal diffusion transformer learns its distribution by flow matching, generating blocks left-to-right while denoising each block in parallel.*
+
+  </div>
+</div>
+
+
+
 <div class='paper-box' data-core='true'>
   <div class='paper-box-image'>
     <div>
