@@ -468,7 +468,7 @@ h1:before, .anchor:before {
   margin: 1em 0 1.5em;
 }
 
-/* Project cards keep room for three comfortably sized items per desktop row. */
+/* Project cards share the row evenly while retaining room for three items. */
 .app-cards--projects {
   grid-template-columns: minmax(0, 1fr);
   gap: 1em;
@@ -476,19 +476,14 @@ h1:before, .anchor:before {
 
 @media (min-width: 40em) {
   .app-cards--projects {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (min-width: 57.8125em) {
-  .app-cards--projects {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   }
 }
 
 /* <a> is the static hit area — never moves, so no flicker at edges */
 .app-card {
   display: block;
+  min-width: 0;
   color: var(--c-text);
   text-decoration: none !important;
 
@@ -530,6 +525,8 @@ h1:before, .anchor:before {
 .app-card__image {
   display: block;
   width: 100%;
+  height: auto;
+  flex: 0 0 auto;
   aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center;
@@ -539,6 +536,7 @@ h1:before, .anchor:before {
 }
 
 .app-card__video {
+  object-fit: contain;
   pointer-events: none;
 }
 
