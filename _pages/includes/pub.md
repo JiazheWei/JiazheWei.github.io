@@ -30,8 +30,6 @@ Jiajun Liang\*, Yucheng Liao\*, Yukang Cao\*, **<span class="author-highlight">J
   </a>
 </div>
 
-**TL;DR:** *We introduce AURORA-LM, a continuous-latent diffusion language model that preserves a high-capacity, decodable text latent instead of compressing it to ease diffusion.*
-
   </div>
 </div>
 
@@ -60,8 +58,6 @@ Jiajun Liang\*, Yucheng Liao\*, Yukang Cao\*, **<span class="author-highlight">J
   </a>
 </div>
 
-**TL;DR:** *We introduce PosterCopilot, the first graphic design framework that fully integrates visual feedback with human aesthetics. Leveraging our Generative Agent and the design model's powerful reasoning capabilities, it enables layer-level, multi-round, high-fidelity editing.*
-
   </div>
 </div>
 
@@ -84,8 +80,6 @@ Jiajun Liang\*, Yucheng Liao\*, Yukang Cao\*, **<span class="author-highlight">J
   <a class="paper-link paper-link--code" href="https://github.com/xjtu-wjz/ALM-PU-Positive-and-Unlabeled-Learning-with-Constrained-Optimization"><i class="fab fa-github" aria-hidden="true"></i><span>Code</span></a>
 </div>
 
-**TL;DR:** *We propose a novel constraint optimization-based PU-learning framework, which enhances sample discrimination capability by imposing distinct mathematical constraints on samples and resolving the problem through systematic optimization.*
-
   </div>
 </div>
 
@@ -106,8 +100,6 @@ Ken Li, Bin Shi, **<span class="author-highlight">Jiazhe Wei</span>**, Bo Dong
 <div class="paper-links" role="group" aria-label="NI-GDBA resources">
   <a class="paper-link paper-link--pdf" href="https://openreview.net/pdf?id=yexIJEru0l"><i class="fas fa-file-pdf" aria-hidden="true"></i><span>PDF</span></a>
 </div>
-
-**TL;DR:** *We propose a non-intrusive graph distributed backdoor attack (NI-GDBA) that does not require backdoor triggers to be injected in the training data.*
 
   </div>
 </div>

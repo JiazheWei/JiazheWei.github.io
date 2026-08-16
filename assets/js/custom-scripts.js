@@ -292,6 +292,98 @@
   });
 })();
 
+// ── Project demo videos — lazy load, pause offscreen, respect data savings ──
+(function () {
+  document.addEventListener('DOMContentLoaded', function () {
+    var videos = Array.prototype.slice.call(document.querySelectorAll('video[data-lazy-video]'));
+    if (!videos.length) return;
+
+    var motionQuery = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)');
+    var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    var effectiveType = connection && connection.effectiveType;
+    var limitedNetwork = connection && (connection.saveData || effectiveType === 'slow-2g' || effectiveType === '2g');
+
+    // Keep the lightweight poster only when motion or data use should be reduced.
+    if ((motionQuery && motionQuery.matches) || limitedNetwork || !('IntersectionObserver' in window)) return;
+
+    function setPlaybackRate(video) {
+      var rate = parseFloat(video.getAttribute('data-playback-rate'));
+      if (!isFinite(rate) || rate <= 0 || rate > 4) rate = 1;
+      video.defaultPlaybackRate = rate;
+      video.playbackRate = rate;
+    }
+
+    function loadVideo(video) {
+      if (video.getAttribute('data-video-loaded') === 'true' ||
+          video.getAttribute('data-video-failed') === 'true') return;
+
+      var src = video.getAttribute('data-src');
+      if (!src) return;
+
+      video.muted = true;
+      video.src = src;
+      video.setAttribute('data-video-loaded', 'true');
+      setPlaybackRate(video);
+      video.load();
+    }
+
+    function playVideo(video) {
+      if (document.hidden || video.getAttribute('data-video-failed') === 'true') return;
+      loadVideo(video);
+      setPlaybackRate(video);
+      var playPromise = video.play();
+      if (playPromise && typeof playPromise.catch === 'function') {
+        playPromise.catch(function () {
+          // Autoplay can be declined; the poster remains a complete fallback.
+        });
+      }
+    }
+
+    videos.forEach(function (video) {
+      video.addEventListener('loadedmetadata', function () { setPlaybackRate(video); });
+      video.addEventListener('play', function () { setPlaybackRate(video); });
+      video.addEventListener('error', function () {
+        video.pause();
+        video.setAttribute('data-video-failed', 'true');
+        video.removeAttribute('src');
+        video.load();
+      });
+    });
+
+    // Fetch shortly before the card reaches the viewport so playback can start smoothly.
+    var loadObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        loadVideo(entry.target);
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: '320px 0px' });
+
+    // Decode only while a meaningful portion of the card is actually visible.
+    var playObserver = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        var video = entry.target;
+        var isVisible = entry.isIntersecting && entry.intersectionRatio >= 0.4;
+        video.setAttribute('data-video-visible', isVisible ? 'true' : 'false');
+        if (isVisible) playVideo(video);
+        else video.pause();
+      });
+    }, { threshold: [0, 0.4, 1] });
+
+    videos.forEach(function (video) {
+      loadObserver.observe(video);
+      playObserver.observe(video);
+    });
+
+    document.addEventListener('visibilitychange', function () {
+      videos.forEach(function (video) {
+        if (document.hidden) video.pause();
+        else if (video.getAttribute('data-video-visible') === 'true') playVideo(video);
+      });
+    });
+  });
+})();
+
 // Segmented control — move indicator to the active segment
 function moveSegIndicator(control, activeBtn) {
   var indicator = control.querySelector('.seg-indicator');

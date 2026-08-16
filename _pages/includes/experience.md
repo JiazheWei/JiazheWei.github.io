@@ -47,6 +47,18 @@
       </span>
     </span>
   </a>
+
+  <a class="app-card" href="https://postercopilot.github.io/" data-github-repo="JiazheWei/PosterCopilot" data-fallback-stars="199" rel="noopener noreferrer">
+    <span class="app-card__inner">
+      <video class="app-card__image app-card__video" poster="images/postercopilot-demo-v2.webp" width="640" height="360" muted loop playsinline preload="none" data-lazy-video data-src="assets/videos/postercopilot-demo-v2.mp4" data-playback-rate="1.5" aria-hidden="true"></video>
+      <span class="app-card__name">PosterCopilot</span>
+      <span class="app-card__desc">Layout reasoning and controllable editing for professional graphic design, with layer-level, multi-round, high-fidelity editing.</span>
+      <span class="app-card__meta" data-github-star-display role="img" aria-label="199 GitHub stars">
+        <i class="fas fa-star" aria-hidden="true"></i>
+        <span data-github-star-count>199</span><span aria-hidden="true"> stars</span>
+      </span>
+    </span>
+  </a>
 </div>
 
 # <i class="fas fa-images section-icon"></i> Gallery
