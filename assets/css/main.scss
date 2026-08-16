@@ -660,52 +660,74 @@ body, #main {
 }
 
 .site-nav__link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
     padding: $nav-link-padding !important; /* locked height — same on all screen sizes */
-    border-radius: 7px;
+    border-radius: 0;
     font-weight: 600 !important;
     font-family: inherit;
     font-size: inherit;
     text-decoration: none !important;
-    color: #102847 !important;
+    color: #fff !important;
     letter-spacing: 0.005em;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.28);
+    text-shadow: 0 1px 2px rgba(8, 55, 92, 0.32);
     white-space: nowrap;
-    transition: background 0.2s ease, color 0.2s ease,
-                box-shadow 0.2s ease, text-shadow 0.2s ease;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+
+    &::after {
+        content: "";
+        position: absolute;
+        right: 0.6em;
+        bottom: -4px;
+        left: 0.6em;
+        height: 3px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0);
+        transform: scaleX(0.55);
+        transition: background 0.2s ease, transform 0.2s ease;
+    }
 
     &.nav-active {
-        background: rgba(255, 255, 255, 0.88);
-        color: #0d4772 !important;
-        text-shadow: none;
-        box-shadow: 0 2px 8px rgba(16, 40, 71, 0.18),
-                    inset 0 0 0 1px rgba(255, 255, 255, 0.72);
+        background: transparent;
+        color: #fff !important;
+        text-shadow: 0 1px 2px rgba(8, 55, 92, 0.38);
+        box-shadow: none;
     }
 
     &:focus {
-        outline: 2px solid #102847;
-        outline-offset: 1px;
-        background: rgba(255, 255, 255, 0.3);
-        color: #102847 !important;
+        outline: none;
+        background: transparent;
+        color: #fff !important;
         text-decoration: none !important;
-        box-shadow: 0 0 0 4px rgba(16, 40, 71, 0.16);
+        box-shadow: none;
     }
 
-    &.nav-active:focus {
-        background: rgba(255, 255, 255, 0.94);
+    &:focus-visible {
+        outline: 2px solid #123f64;
+        outline-offset: 3px;
+        border-radius: 3px;
+        box-shadow: none;
+    }
+
+    &.nav-active::after {
+        background: rgba(255, 255, 255, 0.96);
+        transform: scaleX(1);
     }
 }
 
 /* Hover only on real pointer devices — prevents sticky hover on touch screens */
 @media (hover: hover) and (pointer: fine) {
     .site-nav__link:hover {
-        background: rgba(255, 255, 255, 0.24);
-        color: #0b2844 !important;
+        background: transparent;
+        color: #fff !important;
+        text-shadow: 0 1px 3px rgba(8, 55, 92, 0.5);
         text-decoration: none !important;
     }
 
-    .site-nav__link.nav-active:hover {
-        background: rgba(255, 255, 255, 0.94);
-        color: #0d4772 !important;
+    .site-nav__link:not(.nav-active):hover::after {
+        background: rgba(255, 255, 255, 0.52);
+        transform: scaleX(1);
     }
 }
 
