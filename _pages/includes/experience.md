@@ -59,6 +59,18 @@
       </span>
     </span>
   </a>
+
+  <a class="app-card" href="https://vibegame.tettet.org/" data-github-repo="tettethu/VibeGame" data-fallback-stars="31" rel="noopener noreferrer">
+    <span class="app-card__inner">
+      <video class="app-card__image app-card__video" poster="images/vibegame-demo.webp" width="640" height="360" muted loop playsinline preload="none" data-lazy-video data-src="assets/videos/vibegame-demo.mp4" data-playback-rate="1.5" aria-hidden="true"></video>
+      <span class="app-card__name">VibeGame</span>
+      <span class="app-card__desc">An open-source self-evolving multi-agent framework that turns natural-language prompts into playable, editable 2D web games.</span>
+      <span class="app-card__meta" data-github-star-display role="img" aria-label="31 GitHub stars">
+        <i class="fas fa-star" aria-hidden="true"></i>
+        <span data-github-star-count>31</span><span aria-hidden="true"> stars</span>
+      </span>
+    </span>
+  </a>
 </div>
 
 # <i class="fas fa-images section-icon"></i> Gallery

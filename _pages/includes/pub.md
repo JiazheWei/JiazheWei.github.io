@@ -7,10 +7,38 @@
 </div>
 
 
+<div class='paper-box' data-core='true'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge tech-report">Tech Report</div>
+      <a href="/images/vibegame-teaser.webp"><img src='/images/vibegame-teaser.webp' alt="VibeGame" width="1200" height="836" loading="lazy" decoding="async"></a>
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+<a class=PaperTitle href="https://vibegame.tettet.org/technical_report.pdf"><b>VibeGame: Prompt-to-Game Development with AI-Native Engine and Self-Evolving Adversarial Agent Team</b></a> \\
+<span class="venue-card">Technical Report, 2026</span> \\
+Wenbo Hu\*, Ken Li\*, **<span class="author-highlight">Jiazhe Wei*</span>**, Yukang Cao, Weiyi Hong, Jiayi Dai, Chenjun Bai, Jiajun Liang, Yucheng Liao, Ruichuan An, Zeyu Lou, Haofan Wang, Yueming Lyu, Ziwei Liu, Chenyang Si†
+<div class="paper-links" role="group" aria-label="VibeGame resources">
+  <a class="paper-link paper-link--pdf" href="https://vibegame.tettet.org/technical_report.pdf"><i class="fas fa-file-pdf" aria-hidden="true"></i><span>PDF</span></a>
+  <a class="paper-link paper-link--project" href="https://vibegame.tettet.org/"><i class="fas fa-globe" aria-hidden="true"></i><span>Project Page</span></a>
+  <a class="paper-link paper-link--code" href="https://github.com/tettethu/VibeGame" data-github-repo="tettethu/VibeGame">
+    <i class="fab fa-github" aria-hidden="true"></i><span>Code</span>
+    <span class="paper-link__stars" data-github-star-display role="img" hidden>
+      <i class="fas fa-star" aria-hidden="true"></i><span data-github-star-count></span>
+    </span>
+  </a>
+</div>
+
+  </div>
+</div>
+
+
+
 <div class='paper-box' data-core='false'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge preprint">Preprint</div>
+      <div class="badge tech-report">Tech Report</div>
       <a href="/images/aurora-lm.png"><img src='/images/aurora-lm.png' alt="AURORA-LM" width="100%"></a>
     </div>
   </div>
@@ -38,7 +66,7 @@ Jiajun Liang\*, Yucheng Liao\*, Yukang Cao\*, **<span class="author-highlight">J
 <div class='paper-box' data-core='true'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge preprint">Preprint</div>
+      <div class="badge poster">Poster</div>
       <a href="/images/teaser.png"><img src='/images/teaser.png' alt="PosterCopilot" width="100%"></a>
     </div>
   </div>

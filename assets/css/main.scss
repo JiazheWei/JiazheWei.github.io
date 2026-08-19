@@ -158,6 +158,14 @@ h1:before, .anchor:before {
     background-color: #5b738f;
     box-shadow: 0 4px 6px rgba(91, 115, 143, 0.28);
 } /* Preprint / under review: slate */
+.badge.poster {
+    background-color: #2f8965;
+    box-shadow: 0 4px 7px rgba(47, 137, 101, 0.3);
+} /* Poster presentation: balanced emerald */
+.badge.tech-report {
+    background-color: #b84a55;
+    box-shadow: 0 4px 7px rgba(184, 74, 85, 0.3);
+} /* Technical report: muted red */
 
 /* image wrapper for badge overlay */
 .paper-box-image > div { position: relative; display: inline-block; }
